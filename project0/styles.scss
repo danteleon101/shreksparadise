@@ -1,0 +1,97 @@
+$shrekcolor: lightgreen;
+$shrekjacket: brown;
+#navme {
+    background-color: $shrekcolor;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#pricetable {
+    margin-bottom: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.shrek {
+    margin-bottom: 20px;
+}
+
+.fixeddist {
+    margin-top: 62px;
+}
+
+a {
+    font-size: 20px;
+    color: $shrekjacket;
+    text-decoration: none;
+}
+
+main {
+    min-height: calc(100vh - 62px - 138px);
+}
+
+.contenido h1 {
+    font-size: 32px;
+}
+
+.contenido {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contenido p {
+    font-size: 20px;
+}
+
+.bgc-grey {
+    background-color: lightgrey;
+}
+
+.borblack {
+    border: 1px solid black;
+}
+
+.borshrek {
+    border: 3px solid $shrekcolor;
+}
+
+ul li:hover {
+    background-color: lightcoral;
+}
+
+footer {
+    background-color: $shrekcolor;
+}
+
+footer {
+    display: flex;
+    align-items: down;
+}
+
+.piedor {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: auto;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.margincenter {
+    margin: auto;
+}
+
+#smallf {
+    font-size: 10px;
+}
