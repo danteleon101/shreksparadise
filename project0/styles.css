@@ -104,4 +104,28 @@ footer {
 #smallf {
   font-size: 10px;
 }
+
+.importanth1 {
+  font-size: 48px;
+  color: brown;
+}
+
+.aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .aboutus {
+    display: inline;
+  }
+}
+
+.aboutus-data {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin: auto;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -95,3 +95,25 @@ footer {
 #smallf {
     font-size: 10px;
 }
+
+.importanth1 {
+    font-size: 48px;
+    color: $shrekjacket;
+}
+
+//Iconos aboutus
+.aboutus {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .aboutus {
+        display: inline;
+    }
+}
+
+.aboutus-data {
+    flex-basis: 20%;
+    margin: auto;
+    text-align: center;
+}
