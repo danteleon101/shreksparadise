@@ -1,3 +1,8 @@
+.aboutus-data, ul > li {
+  margin: auto;
+  text-align: center;
+}
+
 #navme {
   background-color: lightgreen;
   position: fixed;
@@ -5,19 +10,11 @@
   width: 100%;
 }
 
-#pricetable {
-  margin-bottom: 0;
-}
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.shrek {
-  margin-bottom: 20px;
 }
 
 .fixeddist {
@@ -30,19 +27,15 @@ a {
   text-decoration: none;
 }
 
-main {
-  min-height: calc(100vh - 62px - 138px);
-}
-
-.contenido h1 {
-  font-size: 32px;
-}
-
 .contenido {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.contenido h1 {
+  font-size: 32px;
 }
 
 .contenido p {
@@ -110,13 +103,25 @@ footer {
   color: brown;
 }
 
+main {
+  min-height: calc(100vh - 62px - 138px);
+}
+
+#pricetable {
+  margin-bottom: 0;
+}
+
+.shrek {
+  margin-bottom: 20px;
+}
+
 .aboutus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .aboutus {
     display: inline;
   }
@@ -125,7 +130,15 @@ footer {
 .aboutus-data {
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
-  margin: auto;
-  text-align: center;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=styles.css.map */
