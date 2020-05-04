@@ -141,4 +141,8 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+main h1 {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */

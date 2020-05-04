@@ -1,6 +1,6 @@
+//GLOBAL
 $shrekcolor: lightgreen;
 $shrekjacket: brown;
-//GLOBAL
 %marginytext {
     margin: auto;
     text-align: center;
@@ -130,4 +130,8 @@ ul {
 
 ul>li {
     @extend %marginytext
+}
+
+main h1 {
+    text-align: center;
 }
